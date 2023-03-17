@@ -1,0 +1,15 @@
+
+.container{
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table {
+   
+    border: 1px solid;
+}
+.th, .td ,.th{
+    padding: 5px 20px;
+    border: 1px solid;
+}

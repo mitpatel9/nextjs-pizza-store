@@ -1,0 +1,56 @@
+.contact{
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tital{
+    text-align: center;
+}
+.tital h3{
+    font-size: 42px;
+    color: red;
+    font-weight: 800;
+   
+}
+
+.fild{
+    display: flex;
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.form input{
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+    background: transparent;
+    margin-bottom: 10px;
+}
+.form textarea{
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+    background: transparent;
+    margin-bottom: 10px;
+}
+.form button{
+    border: none;
+   color: white;
+   background-color: red;
+   padding: 10px;
+   border-radius: 10px;    
+}
+.form button:hover{
+    border: none;
+   color: white;
+   background-color: green;
+   padding: 10px;
+   border-radius: 10px;   
+   cursor: pointer; 
+}
